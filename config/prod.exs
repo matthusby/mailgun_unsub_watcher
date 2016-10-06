@@ -62,4 +62,6 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+# import_config "prod.secret.exs"
+config :unsubscibe_watcher, UnsubscibeWatcher.Endpoint,
+  secret_key_base: System.get_env("SECRET_KEY_BASE")
