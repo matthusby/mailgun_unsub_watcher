@@ -5,6 +5,8 @@ People would accidently click on the unsubscribe link for one of our mailing lis
 
 It needs system env's set for these:
 
-```export UNSUB_MAILGUN_API_KEY="your api key"
+```
+export UNSUB_MAILGUN_API_KEY="your api key"
 export UNSUB_DOMAIN="domain to watch"
-export UNSUB_EMAIL="email address to watch"```
+export UNSUB_EMAIL="email address to watch"
+```
